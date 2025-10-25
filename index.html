@@ -6,13 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
  body {font-family: Arial, sans-serif; margin:0; padding:0; line-height:1.6; color:#333;}
- header {background:url('https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=1600') no-repeat center center/cover; height:60vh; display:flex; align-items:center; justify-content:center; color:#fff; text-align:center; flex-direction:column;}
+ header {background:url('https://images.pexels.com/photos/14731644/pexels-photo-14731644.jpeg') no-repeat center center/cover; height:70vh; display:flex; align-items:center; justify-content:center; color:#fff; text-align:center; flex-direction:column;}
  header h1 {font-size:3em; margin:0;}
- header p {font-size:1.2em; margin-top:0.5em;}
+ header p {font-size:1.2em; margin-top:0.5em; max-width:700px;}
  nav {background:#d35400; color:#fff; padding:1em; text-align:center; position:sticky; top:0; z-index:1000;}
  nav a {color:#fff; margin:0 1em; text-decoration:none; font-weight:bold;}
  nav a:hover {text-decoration:underline;}
- .section {padding:3em 1em; max-width:800px; margin:0 auto;}
+ .section {padding:3em 1em; max-width:900px; margin:0 auto;}
+ .categories {display:flex; flex-wrap:wrap; justify-content:center; margin-top:1.5em;}
+ .category {border:1px solid #eee; margin:1em; padding:1em; width:200px; text-align:center; border-radius:8px; background:#fafafa; box-shadow:0 2px 4px rgba(0,0,0,0.1);}
+ .category h3 {margin-top:0; color:#d35400;}
  .menu {display:flex; flex-wrap:wrap; justify-content:center;}
  .menu-item {border:1px solid #eee; margin:1em; padding:1em; width:250px; text-align:center; border-radius:8px; background:#fafafa; box-shadow:0 2px 4px rgba(0,0,0,0.1);}
  .menu-item h3 {margin-top:0; color:#d35400;}
@@ -21,41 +24,66 @@
 </head>
 <body>
 <header>
-<h1>Welcome to Sactown Kabob</h1>
-<p>Authentic Persian flavors in the heart of Sacramento</p>
+<h1>Welcome to Sactown Kabob!</h1>
+<p>Sactown Kabob restaurant in Sacramento, CA 95825 is a leading restaurant that has been bringing you traditional Persian cuisine for years. Located on Del Paso Rd. in Sacramento, we let you experience the very best of hospitality.</p>
 </header>
 <nav>
 <a href="#about">About Us</a>
-<a href="#menu">Menu</a>
+<a href="#categories">Categories</a>
+<a href="#menu">Popular Items</a>
 <a href="#contact">Contact</a>
 </nav>
 <section id="about" class="section">
 <h2>About Us</h2>
-<p>At Sactown Kabob, we bring the rich and savory flavors of Persian cuisine to Sacramento. Our dishes are prepared using traditional recipes passed down through generations, with fresh ingredients and love. Whether you're enjoying our juicy kebabs, aromatic rice, or delicious stews, you'll feel like you're dining in Tehran.</p>
+<p>At Sactown Kabob, we are passionate about food. Our talented team of skilled chefs takes great pride in crafting a menu that showcases the finest ingredients, both locally sourced and globally inspired. We believe in the power of food to bring people together, and we strive to create dishes that are not only visually stunning but also a delight to the taste buds.</p>
+</section>
+<section id="categories" class="section">
+<h2>Food Categories</h2>
+<div class="categories">
+<div class="category">
+<h3>Kabobs</h3>
+<p>Grilled skewers of marinated meats cooked over open flame.</p>
+</div>
+<div class="category">
+<h3>Healthy Salads</h3>
+<p>Fresh and vibrant salads to complement your meal.</p>
+</div>
+<div class="category">
+<h3>Stew</h3>
+<p>Hearty slow‑cooked stews full of rich flavors.</p>
+</div>
+<div class="category">
+<h3>Drinks</h3>
+<p>Refreshing beverages to pair with our dishes.</p>
+</div>
+</div>
 </section>
 <section id="menu" class="section">
-<h2>Popular Menu</h2>
+<h2>Popular Items</h2>
 <div class="menu">
 <div class="menu-item">
-<h3>Chicken Kabob</h3>
-<p>Grilled marinated chicken breast served with saffron rice and grilled vegetables.</p>
+<h3>Koobideh</h3>
+<p>Juicy ground beef kabob served with basmati rice and grilled tomato.</p>
 </div>
 <div class="menu-item">
-<h3>Beef Koobideh</h3>
-<p>Seasoned ground beef skewers served with basmati rice and roasted tomatoes.</p>
+<h3>Chicken Souvlaki</h3>
+<p>Tender chunks of marinated chicken grilled to perfection and served with saffron rice.</p>
 </div>
 <div class="menu-item">
-<h3>Veggie Platter</h3>
-<p>A selection of grilled seasonal vegetables served with herb rice and salad.</p>
+<h3>Beef Souvlaki</h3>
+<p>Succulent pieces of beef grilled on skewers, accompanied by rice and salad.</p>
+</div>
+<div class="menu-item">
+<h3>Chicken Combo</h3>
+<p>A combination of our finest chicken kabobs served with rice and vegetables.</p>
 </div>
 </div>
 </section>
 <section id="contact" class="section">
 <h2>Contact Us</h2>
-<p>Address: 1234 Kabob Street, Sacramento, CA</p>
-<p>Phone: (123) 456-7890</p>
-<p>Email: info@sactownkabob.com</p>
-<p>Follow us on social media for updates and promotions.</p>
+<p><strong>Phone:</strong> +1 (916) 420‑6023</p>
+<p><strong>Address:</strong> 2440 Fulton Ave, Sacramento, CA 95825, USA</p>
+<p><strong>Hours:</strong> Mon–Fri 11 am–9 pm; Sat 12 pm–9 pm; Sun 12 pm–7 pm</p>
 </section>
 <footer>
 <p>&copy; 2025 Sactown Kabob. All rights reserved.</p>
